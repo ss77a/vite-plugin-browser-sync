@@ -20,15 +20,15 @@
   ],
   "exports": {
     ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "require": "./release/index.js",
+      "import": "./release/index.mjs"
     }
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "./release/index.js",
+  "module": "./release/index.mjs",
+  "types": "./release/index.d.ts",
   "files": [
-    "dist"
+    "release"
   ],
   "engines": {
     "node": ">= 14"
