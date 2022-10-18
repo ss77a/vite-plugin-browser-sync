@@ -1,11 +1,11 @@
-import { Plugin } from 'vite';
-import browserSync from 'browser-sync';
+import { Plugin } from 'vite'
+import browserSync from 'browser-sync'
 
-declare type OptionsType = 'snippet' | 'proxy';
+declare type OptionsType = 'snippet' | 'proxy'
 interface Options {
-    mode?: OptionsType;
-    bs?: browserSync.Options;
+  mode?: OptionsType
+  bs?: browserSync.Options
 }
-declare function VitePluginBrowserSync(options?: Options): Plugin;
+declare function VitePluginBrowserSync(options?: Options): Plugin
 
-export { Options, VitePluginBrowserSync as default };
+export { Options, VitePluginBrowserSync as default }
