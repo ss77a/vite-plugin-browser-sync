@@ -51,18 +51,18 @@
     "kolorist": "^1.6.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.37.0",
-    "@typescript-eslint/parser": "^5.37.0",
-    "eslint": "^8.23.1",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-define-config": "^1.7.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "playwright": "^1.25.2",
+    "playwright": "^1.27.1",
     "prettier": "^2.7.1",
-    "tsup": "^6.2.3",
-    "typescript": "^4.8.3",
-    "vite": "^3.1.2",
+    "tsup": "^6.3.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8",
     "vitest": "^0.19.1"
   }
 }
